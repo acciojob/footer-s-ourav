@@ -1,1 +1,69 @@
 /* your code here */
+footer{
+	/* width:1000px;
+	height:500px; */
+	
+}
+a{
+	color:whitesmoke;
+	font-size:20px;
+	font-family:Arial;
+	text-decoration:underline;
+}
+ul{
+	text-align:left;
+	line-height:2;
+}
+li{
+	list-style:none;
+	color:white;
+	text-align:left;
+}
+.link-boxes{
+	width:1000px;
+	height:500px;
+	background-color:black;
+	display:flex;
+	justify-content:space-around;
+}
+.box{
+	border:1px solid white;
+	width:200px;
+	height:200px;
+	display:flex;
+	flex-direction:column;
+	justify-content:left;
+	
+	
+}
+.logo_name{
+	color:white;
+	font-family: Arial, Helvetica, sans-serif;
+	font-size:40px;
+}
+.top{
+	display:flex;
+	justify-content:space-between;
+	padding:20px;
+	box-sizing:border-box;
+	width:1000px;
+	height:250px;
+	background-color:black;
+}
+.logo-details{
+	padding:20px;
+	box-sizing:border-box;
+	/* border:1px solid white; */
+	/* display:inline; */
+}
+.logo{
+	height:6vh;
+	width:5vw;
+}
+.media-icons{
+	/* border:1px solid white; */
+	display:flex;
+	gap:20px;
+}
+	
+}
