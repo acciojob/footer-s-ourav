@@ -1,40 +1,56 @@
-/* your code here */
-footer{
-	/* width:1000px;
-	height:500px; */
-	
+/* css*/
+.bottom-details{
+	width:1000px;
+	height:50px;
+	background-color:rgb(77, 84, 81);
+	border:1px solid ;
+	display:flex;
+	justify-content:space-between;
+	padding:10px;
+	box-sizing:border-box;
 }
 a{
 	color:whitesmoke;
 	font-size:20px;
 	font-family:Arial;
 	text-decoration:underline;
+	margin-bottom:10px;
 }
 a:hover{
 	color:rgb( 252, 3, 69);
+	margin-bottom:20px;
+	
 }
-ul{
-	text-align:left;
-	line-height:2;
+a:hover ~ p {
+    color: rgb(217, 54, 184);
+    font-style: italic;
+    /* Add any additional styles you want for the paragraphs */
+  }
+a{
+	color:rgb(233, 242, 238);
 }
-li{
-	list-style:none;
-	color:white;
-	text-align:left;
+p{
+	font-family:Arial;
+	font-style:strong;
+	color:rgb(219, 211, 211);
+	margin:5px;
 }
 .link-boxes{
+	/* border:1px solid white; */
 	width:1000px;
-	height:500px;
+	height:200px;
 	background-color:black;
 	display:flex;
 	justify-content:space-around;
 }
 .box{
-	border:1px solid white;
+	/* border:1px solid white; */
+	
 	width:200px;
 	height:200px;
 	display:flex;
 	flex-direction:column;
+	align-items:flex-start;
 	justify-content:left;
 	
 	
@@ -70,3 +86,5 @@ li{
 }
 	
 }
+
+.
